@@ -120,6 +120,7 @@ function resizeCanvas(from, to, options, callback) {
     alpha:    options.alpha,
     unsharpAmount:    options.unsharpAmount,
     unsharpThreshold: options.unsharpThreshold,
+    unsharpBlurRadius: options.unsharpBlurRadius,
     transferable: true
   };
 
