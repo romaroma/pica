@@ -7,6 +7,6 @@ exports.run = function(data) {
   b = new Uint8Array(data.buffer.length);
   b.set(data.buffer);
 
-  blur(b, data.width, data.height, 100, 1.0, 0);
+  blur(b, data.width, data.height, 5);
   return b;
 };
