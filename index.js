@@ -45,7 +45,8 @@ function resizeBuffer(options, callback) {
     quality:  options.quality,
     alpha:    options.alpha,
     unsharpAmount:    options.unsharpAmount,
-    unsharpThreshold: options.unsharpThreshold
+    unsharpThreshold: options.unsharpThreshold,
+    unsharpBlurRadius: options.unsharpBlurRadius
   };
 
   if (WORKER && exports.WW) {
